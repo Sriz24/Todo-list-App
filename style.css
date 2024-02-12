@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&family=Poppins:wght@200&family=Protest+Revolution&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?w=1060&t=st=1707762024~exp=1707762624~hmac=72566630afba3f82fd1873a8117a6c463eea66ce1af539640ffca61a9c777d45);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 )
+}
+h1{
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Protest Revolution', sans-serif;
+    
+}
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Popins';
+}
+button:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,21,209,1) 0%, rgba(59,136,199,1) 59%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+#todo-list{
+    list-style-type: none;
+    padding: 0;
+}
+#todo-list li{
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-btn { 
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+.delete-btn:hover {
+    background-color: greenyellow;
+}
